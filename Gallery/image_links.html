@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clive's Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery a {
+            display: block;
+            width: calc(33% - 20px);
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .gallery a:hover {
+            transform: scale(1.05);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .intro {
+            text-align: center;
+            padding: 20px;
+        }
+        .intro p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .intro .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            transform: scale(1.05);
+        }
+        .gallery a:hover {
+            transform: scale(1.05);
+        }
+        
+        .intro img {
+            width: auto;
+            height: 350px; /* Set a fixed height for the images */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            object-fit: cover; /* Ensures the aspect ratio is maintained and the image is fully contained */
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Clive's Gallery</h1>
+        <section id="home">
+            <div class="intro">
+                <h2>Welcome to Clive's World of Interests!</h2>
+                <p>Explore a curated selection of Clive's favorite topics, including the latest in technology, thrilling sports moments, and stunning cars. Dive into each gallery to discover more about the hobbies and passions that inspire Clive.</p>
+                <p>Whether you're a tech enthusiast, a sports fan, or a car aficionado, there's something here for everyone. Enjoy your stay and feel free to explore each section below.</p>
+                <a href="https://www.pinterest.com/Clive_Abinel/_saved/">
+                    <img src="The Boys.jpg" alt="The Boys">
+                    </a>
+                    <a href="https://www.notion.so/simplyacademicsolutions/July-Broductivity-Challenge-6e1b2df188584300be8f346d526dab09?pvs=4">
+                    <img src="Urban Bro.jpg" alt="Urban Bro">
+                </a>
+            </div>
+        </section>
+    
+        <section id="phones-gallery">
+            <h2>Phones Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.pinterest.com/pin/18858892183734156/">
+                    <img src="Iphone X Dickies.jpg" alt="Iphone X Dickies">
+                </a>
+                <a href="https://www.pinterest.com/pin/101331060534992292/">
+                    <img src="Iphone 11 x JBL.jpg" alt="Iphone 11 X JBL">
+                </a>
+                <a href="https://www.pinterest.com/pin/20055160837673920/">
+                    <img src="Iphone X Rubix Cube.jpg" alt="Iphone X Rubix Cube">
+                </a>
+            </div>
+        </section>
+    
+        <section id="sports-gallery">
+            <h2>Sports Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.pinterest.com/pin/492649952953353/">
+                    <img src="SnoopBall.jpg" alt="Snoop Ball">
+                </a>
+                <a href="https://www.pinterest.com/pin/3659243439753936/">
+                    <img src="Ball Mood.jpg" alt="Ball Mood">
+                </a>
+                <a href="https://www.pinterest.com/pin/26317979066406477/">
+                    <img src="Tribal Chief.jpg" alt="Tribal Chief">
+                </a>
+            </div>
+        </section>
+
+        <section id="cars-gallery">
+            <h2>Cars Gallery</h2>
+            <div class="gallery">
+                <a href="https://www.pinterest.com/pin/1618549862816180/">
+                    <img src="Cadillac.jpeg" alt="Cadillac Gladiator">
+                </a>
+                <a href="https://www.pinterest.com/pin/9429480465058531/">
+                    <img src="911.jpeg" alt="911">
+                </a>
+                <a href="https://www.pinterest.com/pin/5207355813586519/">
+                    <img src="Ferrari.jpeg" alt="Ferrari">
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
